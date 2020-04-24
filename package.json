@@ -1,0 +1,24 @@
+{
+    "name": "lilypond-snippets",
+    "displayName": "LilyPond Command & Keywords",
+    "description": "Lilypond Command & Keywords Snippets for autocomplete",
+    "version": "0.0.1",
+    "publisher": "lhl2617",
+    "engines": {
+        "vscode": "^1.44.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "lilypond",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    },
+    "devDependencies": {
+        "ts-node": "^8.9.0"
+    }
+}
