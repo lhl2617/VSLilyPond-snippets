@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "noImplicitAny": true,
+        "lib": ["ES6", "dom"]
+    }
+}
