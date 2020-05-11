@@ -2,14 +2,11 @@
     "name": "lilypond-snippets",
     "displayName": "LilyPond AutoComplete (Commands & Keywords)",
     "description": "Lilypond Commands & Keywords Snippets for autocomplete",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "license": "MIT",
     "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
     "publisher": "lhl2617",
     "preview": true,
-    "galleryBanner": {
-        "theme": "dark"
-    },
     "icon": "assets/icon.png",
     "engines": {
         "vscode": "^1.44.0"
