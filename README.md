@@ -1,6 +1,6 @@
 # LilyPond AutoComplete (Commands & Keywords)
 
-Provides code snippets for command & keyword auto-complete and IntelliSense for LilyPond files. 
+Provides code snippets for command & keyword auto-complete and IntelliSense for LilyPond files in VSCode.
 
 ![Usage Demonstration](./assets/usage.gif)
 
