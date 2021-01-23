@@ -2,7 +2,7 @@
     "name": "lilypond-snippets",
     "displayName": "LilyPond AutoComplete (Commands & Keywords)",
     "description": "Lilypond Commands & Keywords Snippets for autocomplete",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "license": "MIT",
     "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
     "publisher": "lhl2617",
@@ -32,9 +32,9 @@
     "devDependencies": {
         "@types/node": "^13.13.2",
         "@types/puppeteer": "^2.0.1",
+        "puppeteer": "^3.3.0",
         "ts-node": "^8.9.0",
-        "typescript": "^3.8.3",
-        "puppeteer": "^3.0.1"
+        "typescript": "^3.8.3"
     },
     "dependencies": {}
 }

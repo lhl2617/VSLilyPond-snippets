@@ -6,7 +6,7 @@ Provides code snippets for command & keyword auto-complete and IntelliSense for 
 
 Included in the [VSLilyPond](https://marketplace.visualstudio.com/items?itemName=lhl2617.vslilypond) extension.
 
-Snippets are auto-generated from [LilyPond documentation](http://lilypond.org/doc/v2.20/Documentation/notation/lilypond-command-index) for LilyPond 2.20.0.
+Snippets are auto-generated from [LilyPond documentation](http://lilypond.org/doc/v2.22/Documentation/notation/lilypond-command-index) for LilyPond 2.22.0.
 
 ## Requirements
 
