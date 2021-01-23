@@ -85,10 +85,7 @@ const getCodeTokens = async () => {
 }
 
 const processSnippetBody = (code: string) => {
-    if (code.includes(`...`)) {
-        return code.replace(`...`, `$0`)
-    }
-    return code
+    return code.replace(`...`, `$0`).replace(`…`, `$0`)
 }
 
 /// MAIN ENTRY
@@ -103,7 +100,7 @@ const processSnippetBody = (code: string) => {
         return res
     })
     const snippetObject = Object.assign({}, snippetElems)
-    const snippetObjectString = JSON.stringify(snippetObject)
+    const snippetObjectString = JSON.stringify(snippetObject, null, `\t`)
 
     fs.writeFileSync('snippets/snippets.json', snippetObjectString)
 })()
