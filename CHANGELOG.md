@@ -1,6 +1,6 @@
 # Change Log
 
-## 0.0.5
+## 0.0.6
 - Bump to LilyPond 2.22
 ## 0.0.3
 - Add icon
