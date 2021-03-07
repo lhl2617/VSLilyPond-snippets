@@ -1,5 +1,5 @@
 /// command index URL where lilypond command index is hosted
-const url = `http://lilypond.org/doc/v2.20/Documentation/notation/lilypond-command-index`
+const url = `http://lilypond.org/doc/v2.22/Documentation/notation/lilypond-command-index`
 
 import * as puppeteer from 'puppeteer'
 import * as fs from 'fs'
