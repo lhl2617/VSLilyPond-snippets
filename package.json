@@ -30,7 +30,7 @@
         "compile": "ts-node src/main.ts"
     },
     "devDependencies": {
-        "@types/node": "^14.14.35",
+        "@types/node": "^14.14.39",
         "@types/puppeteer": "^5.4.3",
         "puppeteer": "^8.0.0",
         "ts-node": "^9.1.1",
