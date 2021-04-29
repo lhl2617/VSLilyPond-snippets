@@ -1,0 +1,29 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  target-branch: dev
+  ignore:
+  - dependency-name: "@types/node"
+    versions:
+    - 14.14.35
+    - 14.14.36
+    - 14.14.37
+    - 14.14.39
+    - 14.14.41
+    - 15.0.0
+  - dependency-name: ts-node
+    versions:
+    - 9.1.1
+  - dependency-name: "@types/puppeteer"
+    versions:
+    - 5.4.3
+  - dependency-name: puppeteer
+    versions:
+    - 8.0.0
+  - dependency-name: typescript
+    versions:
+    - 4.2.3
