@@ -1,8 +1,7 @@
 # LilyPond AutoComplete (Commands & Keywords)
 
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/lhl2617.lilypond-formatter.svg)](https://marketplace.visualstudio.com/items?itemName=lhl2617.lilypond-formatter)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/lhl2617.lilypond-formatter.svg)](https://vsmarketplacebadge.apphb.com/installs/lhl2617.lilypond-formatter.svg)
-
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version-short/lhl2617.lilypond-snippets.svg)](https://marketplace.visualstudio.com/items?itemName=lhl2617.lilypond-snippets)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/lhl2617.lilypond-snippets.svg)](https://vsmarketplacebadge.apphb.com/installs/lhl2617.lilypond-snippets.svg)
 
 Provides code snippets for command & keyword auto-complete and IntelliSense for LilyPond files in VSCode.
 
