@@ -1,41 +1,41 @@
 {
-    "name": "lilypond-snippets",
-    "displayName": "LilyPond AutoComplete (Commands & Keywords)",
-    "description": "Lilypond Commands & Keywords Snippets for autocomplete",
-    "version": "0.1.0",
-    "license": "MIT",
-    "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
-    "publisher": "lhl2617",
-    "icon": "assets/icon.png",
-    "engines": {
-        "vscode": "^1.44.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "lilypond",
-        "music"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "lilypond",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "ts-node src/main.ts"
-    },
-    "devDependencies": {
-        "@types/node": "^14.14.35",
-        "@types/puppeteer": "^5.4.3",
-        "puppeteer": "^8.0.0",
-        "ts-node": "^9.1.1",
-        "typescript": "^4.2.3",
-        "vsce": "^1.87.1"
-    },
-    "dependencies": {}
+  "name": "lilypond-snippets",
+  "displayName": "LilyPond AutoComplete (Commands & Keywords)",
+  "description": "Lilypond Commands & Keywords Snippets for autocomplete",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
+  "publisher": "lhl2617",
+  "icon": "assets/icon.png",
+  "engines": {
+    "vscode": "^1.44.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "lilypond",
+    "music"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lilypond",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "@types/puppeteer": "^5.4.3",
+    "puppeteer": "^8.0.0",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3",
+    "vsce": "^1.87.1"
+  },
+  "dependencies": {}
 }
