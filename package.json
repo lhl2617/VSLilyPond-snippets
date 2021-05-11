@@ -1,41 +1,47 @@
 {
-    "name": "lilypond-snippets",
-    "displayName": "LilyPond AutoComplete (Commands & Keywords)",
-    "description": "Lilypond Commands & Keywords Snippets for autocomplete",
-    "version": "0.1.0",
-    "license": "MIT",
-    "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
-    "publisher": "lhl2617",
-    "icon": "assets/icon.png",
-    "engines": {
-        "vscode": "^1.44.0"
-    },
-    "categories": [
-        "Snippets"
-    ],
-    "keywords": [
-        "lilypond",
-        "music"
-    ],
-    "contributes": {
-        "snippets": [
-            {
-                "language": "lilypond",
-                "path": "./snippets/snippets.json"
-            }
-        ]
-    },
-    "scripts": {
-        "vscode:prepublish": "npm run compile",
-        "compile": "ts-node src/main.ts"
-    },
-    "devDependencies": {
-        "@types/node": "^14.14.35",
-        "@types/puppeteer": "^5.4.3",
-        "puppeteer": "^8.0.0",
-        "ts-node": "^9.1.1",
-        "typescript": "^4.2.3",
-        "vsce": "^1.87.0"
-    },
-    "dependencies": {}
+  "name": "lilypond-snippets",
+  "displayName": "LilyPond AutoComplete (Commands & Keywords)",
+  "version": "0.1.1",
+  "description": "Lilypond Commands & Keywords Snippets for autocomplete",
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "lilypond",
+    "music"
+  ],
+  "repository": "https://github.com/lhl2617/VSLilyPond-snippets",
+  "license": "MIT",
+  "publisher": "lhl2617",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "ts-node src/main.ts",
+    "lint": "eslint src --ext ts"
+  },
+  "contributes": {
+    "snippets": [
+      {
+        "language": "lilypond",
+        "path": "./snippets/snippets.json"
+      }
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/puppeteer": "^5.4.3",
+    "@typescript-eslint/eslint-plugin": "^4.23.0",
+    "@typescript-eslint/parser": "^4.23.0",
+    "eslint": "^7.26.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "prettier": "^2.3.0",
+    "puppeteer": "^9.1.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4",
+    "vsce": "^1.88.0"
+  },
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "icon": "assets/icon.png"
 }
