@@ -16,9 +16,33 @@ Snippets are auto-generated from [LilyPond documentation](http://lilypond.org/do
 
 Please submit issues in the [GitHub repository](https://github.com/lhl2617/VSLilyPond-snippets).
 
-
 ## Contributing
 
-* File bugs and/or feature requests in the [GitHub repository](https://github.com/lhl2617/VSLilyPond-snippets)
-* Pull requests are welcome in the [GitHub repository](https://github.com/lhl2617/VSLilyPond-snippets)
-* Buy me a Coffee ☕️ via [PayPal](https://paypal.me/lhl2617)
+- File bugs and/or feature requests in the [GitHub repository](https://github.com/lhl2617/VSLilyPond-snippets)
+- Pull requests are welcome in the [GitHub repository](https://github.com/lhl2617/VSLilyPond-snippets)
+- Buy me a Coffee ☕️ via [PayPal](https://paypal.me/lhl2617)
+
+## Development
+
+#### Requirements
+
+- [VSCode](https://code.visualstudio.com/)
+- `npm`
+
+#### Setup
+
+- Clone repository
+  ```bash
+  git clone https://github.com/lhl2617/VSLilyPond-formatter
+  ```
+- Install `npm` dependencies
+  ```bash
+  npm i
+  ```
+- Hit `F5` to run an Extension Development Host.
+
+  See [here](https://code.visualstudio.com/api/get-started/your-first-extension) for a detailed extension development guide.
+
+#### Releasing
+
+Releasing is done automatically via GitHub Actions. Bump the version in `package.json` and update `CHANGELOG.md` before merging into the default branch.
