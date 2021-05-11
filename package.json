@@ -1,7 +1,7 @@
 {
   "name": "lilypond-snippets",
   "displayName": "LilyPond AutoComplete (Commands & Keywords)",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Lilypond Commands & Keywords Snippets for autocomplete",
   "categories": [
     "Snippets"
